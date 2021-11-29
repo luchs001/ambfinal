@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ambassador Menu</title>
+  <link rel="stylesheet" href="css/menuresp.css">
+  <link rel="stylesheet" href="https://use.typekit.net/ixl3lho.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<!--  Start of Header navigation is included here with logo  -->
+
+<body onload="openTab('b1');">
+
+  <div class="container">
+
+    <div class="item item1">
+      <header>
+        <section id="navbar">
+          <a href="index.html"> <img class="heroimage" src="https://i.imgur.com/qC1VnR8.png" alt="AMBASSADOR"> </a>
+          <div>
+            <h2 id="#top"></h2>
+            <center>
+              <a href="menu.html">MENU</a>
+              <a href="#take">TAKE'N'BAKE</a>
+              <a href="#orders">ORDER</a>
+              <a href="#hours">HOURS</a>
+              <a href="#location">LOCATION</a>
+              <a href="history.html">HISTORY</a>
+            </center>
+          </div>
+        </section>
+        <hr>
+      </header>
+    </div>
+    <div class="item item2">
+      <h1>Click a category to see the full menu</h1>
+    </div>
+
+    <div class="item item3">
+      <div class="row">
+        <div class="column" onclick="openTab('b1');" style="background:#faf0e6;">
+          <h3>Pizza & Pasta</h3>
+        </div>
+        <div class="column" onclick="openTab('b2');" style="background:#faf0e6;">
+          <h3>Salads & Sandwiches</h3>
+        </div>
+        <div class="column" onclick="openTab('b3');" style="background:#faf0e6;">
+          <h3>Appetizers</h3>
+        </div>
+        <div class="column" onclick="openTab('b4');" style="background:#faf0e6;">
+          <h3>Cocktails</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="item item4">
+      <h2> For reservations or <br>
+        carry-out <br>
+        (906) 482-5054
+      </h2>
+    </div>
+    <div class="item item5">
+
+      <a href="https://www.instagram.com/"><img src="https://i.imgur.com/HAuN0yu.png" alt="Instagram"></a>
+      <a href="https://www.facebook.com/"> <img src="https://i.imgur.com/u2Y2Mxo.png" alt="Facebook"></a>
+      <a href="https://www.twitter.com/"> <img src="https://i.imgur.com/TFMHyZs.png" alt="Twitter"></a>
+
+    </div>
+    <div class="item item6">
+      <h2>The Ambassador Restaurant <br>
+        126 Shelden Ave, Houghton, MI 49931
+      </h2>
+    </div>
+
+    <div class="item item7">
+      <!-- columns: (hidden by default) -->
+      <div id="b1" class="containerTab" style="display:none;background:white">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <h4>Pizza & Pasta Menu</h4>
+        <h2>TOSTADA &nbsp;&nbsp; | 12.5 | 15 | 18 </h2>
+        <p> award winning tostada beef layered over house-made pizza sauce and baked with Wisconsin White Colby cheese, topped with freshly shredded lettuce, tomatoes, Wisconsin Cheddar Cheese and house-made tostada hot sauce
+        </p>
+
+        <h2>B.L.T. &nbsp;&nbsp; | 12.5 | 15.5 | 19</h2>
+        <p>smoked bacon layered over salad dressing and baked with Wisconsin White Colby cheese, topped with freshly shredded lettuce and tomatoes</p>
+
+        <h2>VEGETARIAN &nbsp;&nbsp; | 12.5 | 15 | 18</h2>
+        <p>tomatoes, zucchini, carrots, onions, broccoli, Wisconsin Cheddar, White Colby cheese, and garlic olive oil layered over house-made pizza sauce</p>
+
+        <h2>GREEK &nbsp;&nbsp; | 13 | 16 | 20</h2>
+        <p>fresh spinach, tomatoes, black and green olives, Feta cheese, oregano and garlic basil olive oil layered over Wisconsin White Colby cheese</p>
+
+        <h2> GARLIC CHICKEN PIZZA &nbsp;&nbsp;| 14.5 | 17 | 20 </h2>
+        <p>chopped chicken breast, broccoli, basil, oregano, garlic olive oil layered over Wisconsin White Colby cheese</p>
+
+        <h2> LOBSTER PIZZA &nbsp;&nbsp; | 16 | 20 | 24</h2>
+        <p>a generous amount of Lobster, tomatoes, parsley, garlic olive oil layered over Wisconsin White Colby cheese </p>
+        <h2>PESTO PIZZA &nbsp;&nbsp; | 12 | 14 | 18 </h2>
+        <p>a generous Layer of basil pesto topped with Wisconsin Colby cheese, tomatoes, and feta cheese</p>
+
+        <h2>QUESADILLA PIZZA &nbsp;&nbsp; | 14 | 17 | 20 </h2>
+        <p>tender chopped chicken breast, green pepper, onion, bacon and Wisconsin Cheddar Cheese layered over Wisconsin White Colby cheese and our house-made spicy aioli</p>
+
+        <h2>BBQ CHICKEN PIZZA &nbsp;&nbsp; | 14 | 17 | 20 </h2>
+        <p>tender chopped chicken breast, banana peppers, sliced red onion, and Wisconsin White Colby Cheese layered over tangy barbeque sauce, topped with Wisconsin Cheddar Cheese</p>
+
+        <h4>Build Your Own Ambassador Pizza</h4>
+
+        <h2>BASIC CHEESE &nbsp;&nbsp; | 9 | 11 | 14 </h2>
+        <p> made with thin crisp crust &nbsp;&nbsp;</p>
+
+        <p>Add ingredients listed below to our basic cheese:</p>
+
+        <p>sausage, pepperoni, ham, smoked Bacon, or anchovies &nbsp;&nbsp; | 1.5 | 2 | 2.5</p>
+
+        <p>shrimp or marinated chicken &nbsp;&nbsp; | 3 | 3.5 | 4 </p>
+
+        <p>spinach, mushrooms, broccoli, zucchini, pineapple, diced jalapeno, black olives, green olives, tomato, green pepper, onion, chopped garlic, or banana peppers &nbsp;&nbsp; | 1 | 1.2 | 1.5 | 1.8</p>
+
+        <p>feta Cheese &nbsp;&nbsp; | 2 | 2.5 | 3 </p>
+
+        <h4>Pasta</h4>
+        <p>made with our homemade sauce using meat, seven different Spices, topped with a dash of grated parmesan and served with fresh baked garlic toast</p>
+
+        <h2>LASAGNA (allow 15 minutes) &nbsp;&nbsp; |12</h2>
+        <p>herbed ricotta cheese, homemade Italian meat sauce, layered with Wisconsin Cheddar, mozzarella, and White Colby cheese, served with garlic toast </p>
+
+        <h2>RAVIOLI &nbsp;&nbsp; | 5 | 8.5</h2>
+        <p>italian beef, carnalized onions, herbed ricotta cheese stuffed ravioli topped with homemade italian meat sauce and grated parmesan, served with garlic toast</p>
+
+        <h2>SPAGHETTI (* Meatless Sauce Available Upon Request)</h2>
+        <p>slow cooked Italian meat sSauce topped with grated parmesan and served with fresh baked garlic toast &nbsp;&nbsp; | 7 | 9</p>
+        <p> with savory Italian meatballs &nbsp;&nbsp; | 8 | 11 </p>
+
+        <h2>PESTO PASTA &nbsp;&nbsp; | 9 |</h2>
+        <p>spaghetti tossed with pesto sauce, fresh spinach, and sun dried tomatoes, served with garlic toast</p>
+
+        <h2>SPECIALTY PASTA &nbsp;&nbsp; | 7 |</h2>
+        <p>spaghetti tossed with olive oil, garlic, basil, tomatoes and parmesan cheese, served with garlic toast</p>
+
+        <h2> Add meat to the Specialty or Pesto pasta?</h2>
+        <p>sliced chicken breast &nbsp;&nbsp; | 3 </p>
+        <p>Norwegian salmon &nbsp;&nbsp; | 3 </p>
+        <p>lobster &nbsp;&nbsp; | 3 </p>
+      </div>
+    </div>
+
+    <div class="item item8">
+      <div id="b2" class="containerTab" style="display:none;background:white">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <h4>Salads</h4>
+        <h2>MEAL IN A BOWL</h2>
+        <p>salads can be made with fresh spinach or fresh cut romaine lettuce for an additional&nbsp;&nbsp; | 2 </p>
+        <p> house dressings (served on the side): homemade ranch, homemade french, homemade italian, caesar, blue cheese, Thousand Island, balsamic binegar, red wine vinegar & Oil, and raspberry vinaigrette</p>
+
+        <h2>HOUSE SALAD&nbsp;&nbsp; | 5</h2>
+        <p>fresh cut iceberg lettuce, tomatoes, onions, Wisconsin Cheddar cheese and croutons</p>
+        <h2> SIDE CAESAR SALAD&nbsp;&nbsp; | 6</h2>
+        <p>freshly chopped Romaine lettuce, croutons, onions, and tomatoes topped with shredded parmesan cheese, Caesar dressing and served with fresh baked garlic toast
+
+        <h2>CAESAR SALAD&nbsp;&nbsp; | 8 </h2>
+        <p>freshly chopped Romaine lettuce, croutons, onions, and tomatoes topped with shredded parmesan cheese, Caesar Dressing and served with fresh baked garlic toast</p>
+        <p> add garlic herb grilled chicken breast&nbsp;&nbsp; | 2.5 </p>
+        <p>add wild Alaskan salmon&nbsp;&nbsp; | 5 </p>
+
+        <h2>CHEF’S SALAD&nbsp;&nbsp; | 9 </h2>
+        <p>fresh cut iceberg lettuce, lean premium deli ham, tender sliced whole turkey, tomatoes, onions, hard-boiled egg, Wisconsin Cheddar cheese and served with fresh baked garlic toast and choice of dressing</p>
+
+        <h2>GARDEN SALAD (vegetarian) &nbsp;&nbsp; | 8 </h2>
+        <p>fresh cut iceberg lettuce, tomatoes, onions, green pepper, black olives, hard-boiled egg, Wisconsin Cheddar cheese, and served with fresh baked garlic toast and choice of dressing</p>
+
+        <h2>TACO SALAD&nbsp;&nbsp; | 9</h2>
+        <p>fresh cut iceberg lettuce topped with our specialty house made tostada beef, wisconsin cheddar cheese,
+          tomatoes, black olives and corn chips, and served with tostada hot sauce, sour cream and salsa </p>
+
+        <h2>ITALIAN BEEF VINAIGRETTE&nbsp;&nbsp; | 8.5</h2>
+        <p>fresh cut iceberg lettuce with thinly shaved tender roast beef, italian green beans, onions, tomatoes, black olives, and served with fresh baked garlic toast and italian dressing &nbsp;&nbsp; | 9 </p>
+
+        <h2>ITALIAN TUNA SALAD&nbsp;&nbsp; | 8 </h2>
+        <p>fresh cut iceberg lettuce with chunks or light tuna, onions, tomatoes, green beans, yellow wax beans, kidney beans, and served with fresh baked garlic toast and italian dressing</p>
+
+        <h2>GREEK SALAD&nbsp;&nbsp; | 8 </h2>
+        <p> fresh cut iceberg lettuce with onions, tomatoes, black olives, green peppers, marinated cucumbers, crumbled feta cheese, and served with fresh baked garlic toast and italian dressing </p>
+
+        <h4>SANDWICHES</h4>
+        <h2>AMBASSADOR SUBMARINE SANDWICHES</h2>
+        <p>served on our hot crusty italian bread</p>
+
+        <h2>TRADITIONAL</h2>
+        <p>cotto salami and bologna, sliced Wisconsin White Colby cheese, tomatoes, onions, lettuce and salad dressing </p>
+        <p>8 in&nbsp;&nbsp; | 6.5 </p>
+        <p>16 in &nbsp;&nbsp; | 12.5 </p>
+        <p>24 in &nbsp;&nbsp;| 18.5</p>
+
+        <h2>THREE CHEESE</h2>
+        <p>fresh sliced wisconsin cheddar & white colby, with swiss, tomatoes, onions, lettuce and salad dressing</p>
+        <p> 8 in &nbsp;&nbsp;| 6.5 </p>
+        <p>16 in &nbsp;&nbsp; | 12.5</p>
+        <p>24 in &nbsp;&nbsp; | 18.5 </p>
+
+        <h4>SPECIALTY SANDWICHES</h4>
+
+        <p>all sandwiches are served on our hot crusty italian bread (split-top wheat available upon request), and served with kettle cooked chips and a pickle</p>
+        Choose from the following &nbsp;&nbsp; | 8</p>
+
+        <h2>REUBEN</h2>
+        <p>hot corned beef, creamy swiss cheese, zesty dressing with spiced sauerkraut</p>
+
+        <h2>YODELER</h2>
+        <p>hot corned beef, shredded lettuce, and sliced tomatoes topped with zesty dressing </p>
+
+        <h2>ROAST BEEF</h2>
+        <p>a simple sandwich of tender roast beef served with a side of au jus</p>
+
+        <h2>YORKSHIRE BEEF</h2>
+        <p>tender roast beef with fresh sliced wisconsin cheddar cheese and a side of au jus</p>
+
+        <h2>RACHEL</h2>
+        <p>tender roast beef, creamy swiss cheese and spiced sauerkraut </p>
+
+        <h2>ITALIAN MEATBALL</h2>
+        <p>6 large savory meatballs stewed in an italian tomato sauce, topped with mozzarella cheese </p>
+
+        <h2>AMBASSADOR CLUB</h2>
+        <p>tender sliced turkey breast, lean ham, wisconsin cheddar cheese, tomatoes, lettuce and salad dressing </p>
+
+        <h2>CHICKEN</h2>
+        <p>tender sliced chicken breast baked in garlic basil olive oil, topped with lettuce, tomatoes, and salad dressing</p>
+        <p>add cheddar cheese &nbsp;&nbsp; | .5</p>
+
+        <h2>HAM AND SWISS&nbsp;&nbsp; | 7</h2>
+        <p>fresh sliced premium lean deli ham, creamy swiss cheese, shredded lettuce, and salad dressing </p>
+
+        <h2>CUDHIGI&nbsp;&nbsp; | 8 </h2>
+        <p>a classic upper-peninsula version of this traditional italian sausage, house-made for over 50 years!
+        <p>  with house-made pizza sauce & wisconsin white colby </p>
+        or with mustard & onions &nbsp;&nbsp; | 7 </p>
+
+        <h2>TURKEY&nbsp;&nbsp; | 7 </h2>
+        <p>tender sliced whole turkey breast, shredded lettuce and salad dressing </p>
+
+        <h2> TURKEY DELUXE&nbsp;&nbsp; | 7.5</h2>
+        <p>tender sliced whole turkey breast, shredded lettuce, tomatoes, and zesty dressing </p>
+
+        <h2>MEAT LOAF&nbsp;&nbsp; | 7 </h2>
+        <p> homemade with lean ground beef, served cold with lettuce and salad dressing </p>
+
+        <h2> AMBO MAC&nbsp;&nbsp; | 7.5</h2>
+        <p>our famous house-made meatloaf warmed in au-jus and served with lettuce, tomatoes, onions, wisconsin cheddar cheese and zesty dressing </p>
+
+        <h2>TUNA</h2>
+        <p>fresh made salad of celery, onion, & tuna with shredded lettuce and salad dressing </p>
+
+        <h2>TUNA SUPREME&nbsp;&nbsp; | 7 </h2>
+        <p>fresh made salad of celery, onion, & tuna with shredded lettuce, tomatoes, sliced wisconsin cheddar cheese, and zesty dressing &nbsp;&nbsp; | 7.5 </p>
+
+        <h2>PESTO CHICKEN&nbsp;&nbsp; | 9 </h2>
+        <p>tender sliced chicken breast and tomatoes baked in fresh garlic olive oil, topped with pesto and romaine lettuce </p>
+
+        <h2>MEDITERRANIAN CHICKEN&nbsp;&nbsp; | 9 </h2>
+        <p>tender sliced chicken breast baked and served with fresh spinach, tomatoes, and feta cheese </p>
+        <p>substitute Wild Alaskan Salmon &nbsp;&nbsp; | 10.5 |</p>
+      </div>
+   </div>
+
+      <div class="item item9">
+        <div id="b3" class="containerTab" style="display:none;background:white">
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+          <h4>Appetizers</h4>
+          <h2>NACHOS&nbsp;&nbsp; | 4.5</h2>
+          <p>basket of corn tortilla chips with 8oz hot nacho cheese </p>
+          <p>homemade salsa 8oz &nbsp;&nbsp; | 2 </p>
+          <p>sour cream 4oz &nbsp;&nbsp; | 1 </p>
+          <p>jalapenos 4oz &nbsp;&nbsp;| 1 </p>
+          <p>basket of chips &nbsp;&nbsp; | 2.5 </p>
+
+          <h2>BAKED POTATO SHELLS&nbsp;&nbsp; | 7</h2>
+          <p>filled with sautéed italian onion sausage , wisconsin cheddar and parmesan cheese, served with sour cream
+            (allow 15 minutes) </p>
+
+          <h2> BAKED CHICKEN WINGS &nbsp;&nbsp; | 8</h2>
+          <p>spicy buffalo hot sauce (allow 15 minutes)</p>
+          <p> add ranch or blue cheese 4oz &nbsp;&nbsp; | 1 </p>
+
+          <h2>FRESH BAKED GARLIC TOAST</h2>
+          <p> basket&nbsp;&nbsp; | 4 </p>
+          <p>Add a dipping sauce:</p>
+          <p>house-made ranch dressing &nbsp;&nbsp; | 1 </p>
+          <p>slow cooked house-made spaghetti sauce &nbsp;&nbsp; | 1.5 </p>
+          <p>house-made pizza sauce &nbsp;&nbsp; | 1 </p>
+
+          <h2>SAVORY ITALIAN MEATBALLS small (6) large (10)&nbsp;&nbsp; | 7.5 </h2>
+          <p>topped with shredded parmesan cheese and served with house-made pizza sauce</p>
+
+          <h2>BEEF OR BEAN TACO</h2>
+          <p>house-made tostada beef, shredded lettuce, wisconsin cheddar cheese, diced tomatoes, and tostada hot sauce</p>
+          <p>hard corn tortilla &nbsp;&nbsp; | 2 </p>
+          <p>soft flour tortilla &nbsp;&nbsp; | 4 </p>
+
+          <h2> BURRITO &nbsp;&nbsp; | 5 </h2>
+          <p>soft flour tortilla filled with house-made refried beans and tostada beef, wisconsin cheddar cheese, black olives and tostada hot sauce.
+            soft tortilla filled with refried beans, spiced beef, cheddar cheese, black olives and hot sauce
+          </p>
+          <p>2 oz. sour cream &nbsp;&nbsp; | .5</p>
+          <p>nacho cheese &nbsp;&nbsp; | 1 </p>
+
+          <h2>NACHO GRANDE&nbsp;&nbsp; | 9 </h2>
+          <p>house-made tostado beef served on corn tortilla chips and topped with shredded cheddar cheese, lettuce, tomato and black olives. served with a side of hot nacho cheese </p>
+          <p>side of salsa&nbsp;&nbsp; | 2 </p>
+        </div>
+        </div>
+        <div class="item item10">
+          <div id="b4" class="containerTab" style="display:none;background:white">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <h4>Cocktails</h4>
+            <h2>FISHBOWLS 25 oz &nbsp;&nbsp; | 9 </h2>
+
+            <h2>SCORPIAN</h2>
+            <p> exotic blend of pineapple and orange juice, gin, rum and creme de almond</p>
+
+            <h2>PIRATE'S COVER</h2>
+            <p> spiced rum, blue curacao, lime juice and squirt</p>
+
+            <h2>AMBASSADOR LONG ISLAND</h2>
+            <p>whiskey, rum, vodka, triple sec, lemon juice and coke</p>
+
+            <h2>LONG ALASKAN</h2>
+            <p> whiskey, rum, vodka, triple sec, blue curacao, coke and lemon juice</p>
+
+            <h2>FROSTY COOLER</h2>
+            <p> lime vodka, gin, sprite and lemon juice</p>
+
+            <h2>QUALUDE</h2>
+            <p> vodka, southern comfort, creme de almond,triple sec, orange juice and sprite</p>
+
+            <h2>PURPLE RAIN</h2>
+            <p> creme de almond, blue curacao, rum, lime juice and squirt</p>
+
+            <h2>OCEAN BREEZE</h2>
+            <p> rum, vodka, triple sec, cranberry juice and orange juice</p>
+
+            <h2>ZOMBIE</h2>
+            <p> rum, apricot brandy, pineapple juice</p>
+
+            <h2>MAITAI</h2>
+            <p>tropical blend of rum, triple sec, sugar and pineapple juice</p>
+
+            <h2> RASPBERRY LEMONADE</h2>
+            <p> whiskey, triple sec, raspberry schnapps, sprite and lemon juice</p>
+
+            <h2>VACATION</h2>
+            <p> whiskey, peach schnapps, pineapple juice, and squirt</p>
+
+            <h2>SWEET TART</h2>
+            <p> vodka, blue curacao, raspberry schnapps, triple sec, cranberry juice, sprite and squirt</p>
+
+            <h2>BLUE MOTORCYCLE</h2>
+            <p> vodka, blue curacao, triple sec, lemon, lime and squirt</p>
+
+            <h2>CABANA</h2>
+            <p> vodka, rum, creme de banana, orange juice, pineapple juice, grenadine</p>
+
+            <h2>SNAKE JEWELS</h2>
+            <p> vodka, triple sec, amaretto, lime juice, cranberry juice and sprite</p>
+
+            <h2>FUN ON THE BEACH</h2>
+            <p> raspberry schnapps, melon liqueur, vodka, orange juice and cranberry juice</p>
+
+            <h2>SUPERIOR TIDE</h2>
+            <p> rum, blue curacao, triple sec, melon liqueur, lime juice and sprite</p>
+
+            <h2>TIJUANA TAXI</h2>
+            <p> tequila, blue curacao, triple sec, lime juice and squirt</p>
+
+            <h2>JAMAICAN TEN SPEED</h2>
+            <p> melon liquer, coconut rum, vodka, creme de banana, pineapple juice and milk</p>
+
+            <h2>CAR CRASH</h2>
+            <p> sloe gin, creme de almond, southern comfort, rum and sprite</p>
+
+            <h2>LYNCHBURG LEMONADE</h2>
+            <p> jack daniel’s, triple sec, lemon juice and sprite</p>
+
+            <h2>BULLFROG</h2>
+            <p> southern comfort, melon liqueur, lemon juice, sugar and squirt</p>
+
+            <h4>BLENDED COCKTAILS</h4>
+            <h2>small 10 oz or large 25 oz &nbsp;&nbsp; |5|9</h2>
+
+            <h2>PINA COLADA</h2>
+            <p>blended rum, pineapple juice and coconut cream</p>
+
+            <h2>STRAWBERRY DAIQUIRI</h2>
+            <p> strawberries blended with rum and lemon juice</p>
+
+            <h2>BLUE HAWAIIAN</h2>
+            <p> blue curacao, rum, pineapple juice and coconut cream</p>
+
+          </div>
+        </div>
+  </div>
+        <script>
+          function openTab(tabName) {
+            var i, x;
+            x = document.getElementsByClassName("containerTab");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            document.getElementById(tabName).style.display = "block";
+          }
+        </script>
+        <div class="menufooterleft">
+          <h2> For reservations or <br>
+            carry-out <br>
+            (906) 482-5054
+          </h2>
+        </div>
+        <div class="menufootercenter">
+
+          <a href="https://www.instagram.com/"><img src="https://i.imgur.com/HAuN0yu.png" alt="Instagram"></a>
+          <a href="https://www.facebook.com/"> <img src="https://i.imgur.com/u2Y2Mxo.png" alt="Facebook"></a>
+          <a href="https://www.twitter.com/"> <img src="https://i.imgur.com/TFMHyZs.png" alt="Twitter"></a>
+
+        </div>
+        <div class="menufooterright">
+          <h2>The Ambassador Restaurant <br>
+            126 Shelden Ave, Houghton, MI 49931
+          </h2>
+        </div>
+</body>
+
+</html>
